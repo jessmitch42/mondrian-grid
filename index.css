@@ -1,4 +1,16 @@
+/* COLOURS 
+ yellow: #c99f37
+ green: #757c69
+ grey: #b0b2bd
+ light-grey: #cec8c2
+*/
+
 .wrapper {
     display: grid;
-    
+    background-color: black;
+
+}
+
+div.block {
+
 }
