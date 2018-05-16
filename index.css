@@ -8,9 +8,15 @@
 .wrapper {
     display: grid;
     background-color: black;
-
+    grid-gap: 10px;
 }
 
 div.block {
+    border: 1px solid black;
+	background-color: #cec8c2;
+}
 
+div.block:nth-child(1) {
+    grid-column: 1/2;
+	grid-row: 1/5;
 }
