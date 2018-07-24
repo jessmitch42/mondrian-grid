@@ -398,3 +398,10 @@ div.block.O {
     grid-column: 15/17;
 }
 
+@media only screen and (max-width: 775px) {
+    .wrapper .img-container h2,
+    .wrapper .img-container img {
+        float: left;
+        clear: both;
+    }
+}
