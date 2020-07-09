@@ -6,8 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mondrian Painting</title>
     <link href="index.css" rel="stylesheet">
+    <title>Mondrian Grid: CSS</title>
+    <meta name="title" content="Mondrian Grid: CSS">
+    <meta name="description" content="Recreating paintings with CSS only">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mondrian Grid: CSS">
+    <meta name="twitter:description" content="Recreating paintings with CSS only">
+    <meta name="twitter:image" content="https://mondrian-grid.netlify.app/reference.jpg">
+    <meta name="twitter:creator" content="@gemontracks" />
+    <meta name="twitter:site" content="@gemontracks" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mondrian Grid: CSS">
+    <meta property="og:description" content="Recreating paintings with CSS only">
+    <meta property="og:image" content="https://mondrian-grid.netlify.app/reference.jpg">
 </head>
 <body>
+    <script>
+        window.onload = function() {
+            document.querySelector('meta[name="description"]').setAttribute('content', 'Recreating paintings with CSS Grid');
+        }
+    </script>
     <h1>Piet Mondrian, Composition with Grid #1 (1918)</h1>
 
     <div class="wrapper">
